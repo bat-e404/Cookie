@@ -1,0 +1,35 @@
+<div class="card border-secondary  mt-5" style="max-width: 20rem;">
+  <div class="card-header text-center">
+    <h4>
+      <i class="far fa-user "></i>
+    </h4>
+  </div>
+  <div class="card-body">
+    <form>
+        <div class="form-group">
+          <label for="name">Nombre</label>
+          <input type="text" class="form-control" id="name" #name>
+        </div>
+        <div class="form-group pt-3">
+          <label for="ape">Apellido</label>
+          <input type="text" class="form-control" id="ape" #ape>
+        </div>
+        <div class="form-group pt-3">
+            <label for="email">Correo</label>
+            <input type="email" class="form-control" id="email" #email>
+        </div>
+        <div class="form-group pt-3">
+            <label for="facu">Facultad</label>
+            <input type="text" class="form-control" id="facu" #facu>
+        </div>
+        <div class="form-group pt-3">
+            <label for="carr">Carrera</label>
+            <input type="text" class="form-control" id="carr" #carrera>
+        </div>
+        <div class="form-group d-grid gap-2 pt-3">
+            <button class="btn  btn-sm btn-primary" type="button" (click) = "addCookie(name.value, ape.value, email.value, facu.value, carrera.value) "><i class="fas fa-plus"></i></button>
+        </div>
+      </form>
+      
+  </div>
+</div>
