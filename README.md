@@ -1,1 +1,2 @@
 # Cookie
+Crear una interfaz gráfica web con Angular, AngularJS, ReactJS, Vue.js, JQuery o cualquier framework de javascript, incluso, javascript puro en donde pidas al usuario sus datos en un formulario, comonombre, apellido, correo electrónico, facultad y carrera, guardar estos datos en una cookie almenos 1hora, al recargar la página, si los datos aunexisten en la cookie, mostrarlos, sino, pedir nuevamente el formulario.
